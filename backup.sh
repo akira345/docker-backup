@@ -22,7 +22,7 @@ if [ "$1" = "backup" ]; then
 
   if [ -z "$volumes" ]; then
     echo "No volumes were detected."
-    exit 1
+    exit 0
   fi
 
   echo "Volumes detected: $volumes"
